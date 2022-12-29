@@ -90,8 +90,9 @@ public class LagerService {
 
         try{
             //File file = new File("/Users/kevinfandio/Desktop/Java/LagerApp/Daten" + countFile + ".csv");
-            File file = new File("/Users/kevinfandio/Desktop/Java/LagerApp/" +
-                            "src/test/java/resources/Daten" + countFile + ".csv");
+            File file = new File("/Users/kevinfandio/Desktop/Java/Test/SternicoCode/LagerApp/Daten" + countFile + ".csv");
+            //File file = new File("/Users/kevinfandio/Desktop/Java//Test/SternicoCode/LagerApp/" +
+            //                "src/test/java/resources/Daten" + countFile + ".csv");
             countFile++;
             /*
             System.out.println("Writing to " + file);
@@ -189,7 +190,7 @@ public class LagerService {
     public void pdfWriter() {
 
         try {
-            String path = "/Users/kevinfandio/Desktop/Java/LagerApp/Bilanz.pdf";
+            String path = "/Users/kevinfandio/Desktop/Java//Test/SternicoCode/LagerApp/Bilanz.pdf";
             PdfWriter pdfWriter = new PdfWriter(path);
 
             PdfDocument pdfDocument = new PdfDocument(pdfWriter);
